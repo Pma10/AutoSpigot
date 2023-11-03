@@ -74,7 +74,7 @@ install_button = tk.Button(root, text="서버 설치", command=start_server)
 
 log_text = Text(root, height=10, width=50)
 
-log_text.configure(state="disabled")  # 로그 텍스트 창을 읽기 전용으로 설정
+log_text.configure(state="disabled") 
 
 version_label.pack()
 version_entry.pack()
